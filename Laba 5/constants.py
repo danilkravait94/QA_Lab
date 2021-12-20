@@ -1,3 +1,3 @@
 
 search = "тестировщик"
-path = r'D:\BinanceBot\chromedriver.exe'
+path = r'..\chromedriver.exe'
