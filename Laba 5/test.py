@@ -11,8 +11,6 @@ driver.maximize_window()
 driver.implicitly_wait(3)
 
 driver.get("https://blog.noveogroup.ru/")
-driver.implicitly_wait(2)
-driver.maximize_window()
 
 main_page = SearchHelper(driver)
 main_page.enter_search(search)
